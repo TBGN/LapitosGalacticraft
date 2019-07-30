@@ -1,0 +1,227 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:lapitos-menu-logo.png",
+            "posX" : -200,
+            "posY" : -50,
+            "width" : 161,
+            "height" : 98,
+            "alignment" : "right_center"
+        },
+		"menubg":
+        {
+            "image" : "modpack:laptios-menu-bg.png",
+            "posX" : 10,
+            "posY" : 0,
+            "width" : 175,
+            "height" : 800,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Join Official Server Now",
+            "posX" : 25,
+			"alignment": "left_center",
+            "posY" : -100,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "play.thebobsgamingnetwork.net:25577"
+            }
+        },
+        
+        "multiplayer":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Multiplayer Menu",
+			"alignment": "left_center",
+            "posX" : 25,
+            "posY" : -75,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "fml.menu.mods",
+			"alignment": "left_center",
+            "posX" : 25,
+            "posY" : -50,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "menu.options",
+			"alignment": "left_center",
+            "posX" : 105,
+            "posY" : -50,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"site":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Website",
+			"alignment": "left_center",
+            "posX" : 25,
+            "posY" : -25,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://thebobsgamingnetwork.net?ref=modpack"
+            }
+        },
+		
+		"forum":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Forum",
+			"alignment": "left_center",
+            "posX" : 105,
+            "posY" : -25,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://forum.thebobsgamingnetwork.net"
+            }
+        },
+		
+		"singeplayer":
+        {
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Solo Space",
+			"alignment": "left_center",
+            "posX" : 25,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+
+
+        
+        "quit":
+        {
+			"alignment": "left_center",
+			"texture" :"modpack:button-texture-01.png",
+			"imageWidth": 400,
+			"imageHeight": 41,
+            "text" : "Exit",
+            "posX" : 105,
+            "posY" : 80,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+		"discord":
+        {
+			"text": "",
+            "texture" : "modpack:Discord-Logo-White.png",
+            "posX" : 25,
+            "posY" : 75,
+            "width" : 30,
+            "imageHeight" : 245,
+			"imageWidth" : 240,
+            "height" : 30,
+            "alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/WazUqz2"
+            }
+        }
+		
+
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Created by TBGN!",
+            "hoverText" : "§nCreated by TBGN!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:modpack:splash.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "modpack:panorama/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 3,
+            "blur" : false,
+            "gradient" : false,
+			"synced" : true
+        }
+    }
+}
