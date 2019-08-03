@@ -19,7 +19,9 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_16_cubed>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_2_cubed>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_io_port>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_pylon>);
-
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_base>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_drill>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_mining_lens>);
 
 
 
